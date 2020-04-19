@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PenyakitBercak">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="214dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="56dp"
+                android:gravity="center_horizontal"
+                android:scrollbars="vertical"
+                android:text="Bercak Daun"
+                android:textColor="#f000"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:layout_width="343dp"
+                android:layout_height="233dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:src="@drawable/bercakdaun" />
+
+            <TextView
+                android:id="@+id/sebab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:text="Penyebab : jamur Helmintosporium oryzae.\n"
+                android:textColor="#f000"
+                android:layout_marginTop="56dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ciri"
+                android:layout_width="match_parent"
+                android:layout_height="421dp"
+                android:scrollbars="vertical"
+                android:text="Ciri-Ciri Bercak Daun pada Padi\n\n1. Biji padi busuk saat berkecambah\n2. Tanaman busuk dan kering\n3. biji bercak-bercak tetapi tetap berisi"
+                android:textColor="#f000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

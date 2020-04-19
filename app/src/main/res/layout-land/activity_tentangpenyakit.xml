@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TentangPenyakit">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="130dp"
+                android:src="@drawable/hawar" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hawar Daun Bakteri Penyakit ini menyerang saat kondisi musim hujan atau musim kemarau yang basah, terutama pada lahan sawah yang selalu tergenang dan kandungan pupuk N tinggi. Penyakit ini disebabkan bakteri Xanthomonas campestris pv oryzae."
+                android:scrollbars="vertical"
+                android:textColor="#f000"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
