@@ -12,6 +12,8 @@ public class TentangPenyakit extends AppCompatActivity {
     TextView hawar;
     TextView blast;
     TextView bercak;
+    TextView busuk;
+    TextView tungro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,8 @@ public class TentangPenyakit extends AppCompatActivity {
         hawar = findViewById(R.id.text1);
         blast = findViewById(R.id.text2);
         bercak= findViewById(R.id.text3);
+        busuk = findViewById(R.id.text4);
+        tungro = findViewById(R.id.text5);
         hawar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +42,20 @@ public class TentangPenyakit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TentangPenyakit.this, PenyakitBercak.class);
+                startActivity(intent);
+            }
+        });
+        busuk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TentangPenyakit.this, PenyakitBusukbatang.class);
+                startActivity(intent);
+            }
+        });
+        tungro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TentangPenyakit.this, PenyakitTungro.class);
                 startActivity(intent);
             }
         });

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PenyakitBercak"></activity>
+        <activity android:name=".PenyakitTungro"></activity>
+        <activity android:name=".PenyakitBusukbatang" />
+        <activity android:name=".PenyakitBercak" />
         <activity android:name=".PenyakitBlast" />
         <activity android:name=".PenyakitHawar" />
         <activity android:name=".Menu" />
@@ -21,9 +23,6 @@
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".RegistrasiActivity"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".SecondActivity"
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".MainActivity"

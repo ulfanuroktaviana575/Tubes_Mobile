@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scrollbars="vertical"
-                android:text="Penyebab : Bakteri Xanthomonas campestris pv oryzae.\n"
+                android:text="Penyebab : \nBakteri Xanthomonas campestris pv oryzae.\n"
                 android:textColor="#f000"
                 android:layout_marginTop="56dp"
                 android:textSize="18sp" />

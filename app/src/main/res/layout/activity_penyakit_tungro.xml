@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PenyakitBlast">
+    tools:context=".PenyakitTungro">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -15,14 +15,14 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/nama1"
+                android:id="@+id/nama"
                 android:layout_width="214dp"
                 android:layout_height="54dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="56dp"
                 android:gravity="center_horizontal"
                 android:scrollbars="vertical"
-                android:text="BLAST"
+                android:text="TUNGRO"
                 android:textColor="#f000"
                 android:textSize="27sp" />
 
@@ -31,24 +31,24 @@
                 android:layout_height="233dp"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
-                android:src="@drawable/blast" />
+                android:src="@drawable/tungro" />
 
             <TextView
-                android:id="@+id/sebab2"
+                android:id="@+id/sebab"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scrollbars="vertical"
-                android:text="Penyebab : \nJamur Pyricularia oryzae.\n"
+                android:text="Penyebab : \nWereng Hijau (Nephotettix impicticeps).\n"
                 android:textColor="#f000"
                 android:layout_marginTop="56dp"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ciri2"
+                android:id="@+id/ciri"
                 android:layout_width="match_parent"
                 android:layout_height="421dp"
                 android:scrollbars="vertical"
-                android:text="Ciri-Ciri Blast pada Padi\n\n1. Pada fase pertumbuhan\nTimbul bercak berbentuk belah ketupat pada daun padi\n2.Pada fase generatif\nPada fase ini menyerang bagian tangkai malai, hingga menimbulkan gelaja berwarna coklat pada malai padi."
+                android:text="Ciri-Ciri Tungro pada Padi\n\n1. Tanaman berubah menjadi kerdil\n2. Anakan padi berkurang\n3. Daun menguning dari pucuk sampai ke batang\n4. Malai kecil dan padi hampa"
                 android:textColor="#f000"
                 android:textSize="18sp" />
         </LinearLayout>
