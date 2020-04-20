@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PenyakitTungro">
+    tools:context=".PengendalianHawar">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,43 +16,32 @@
 
             <TextView
                 android:id="@+id/nama"
-                android:layout_width="214dp"
-                android:layout_height="54dp"
+                android:layout_width="264dp"
+                android:layout_height="78dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="56dp"
                 android:gravity="center_horizontal"
                 android:scrollbars="vertical"
-                android:text="TUNGRO"
+                android:text="CARA MENGATASI HAWAR DAUN !!!"
                 android:textColor="#f000"
-                android:textSize="27sp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="343dp"
                 android:layout_height="233dp"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
-                android:src="@drawable/tungro" />
-
-            <TextView
-                android:id="@+id/sebab"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scrollbars="vertical"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:text="Penyebab : \nWereng Hijau (Nephotettix impicticeps).\n"
-                android:textColor="#f000"
-                android:layout_marginTop="56dp"
-                android:textSize="18sp" />
+                android:src="@drawable/p1" />
 
             <TextView
                 android:id="@+id/ciri"
                 android:layout_width="match_parent"
-                android:layout_height="269dp"
+                android:layout_height="310dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="56dp"
                 android:layout_marginRight="20dp"
                 android:scrollbars="vertical"
-                android:text="Ciri-Ciri Tungro pada Padi\n\n1. Tanaman berubah menjadi kerdil\n2. Anakan padi berkurang\n3. Daun menguning dari pucuk sampai ke batang\n4. Malai kecil dan padi hampa"
+                android:text="Pengendalian Penyakit Hawar Daun Bakteri\n\n1. Pengaturan air yang cukup\n2. Hindari penggenangan air yang terus menerus\n3. menggunakan pola tanam yang mempunyai sirkulasi udara yang lebih baik"
                 android:textColor="#f000"
                 android:textSize="18sp" />
         </LinearLayout>

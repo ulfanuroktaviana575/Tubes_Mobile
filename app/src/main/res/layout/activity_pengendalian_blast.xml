@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PenyakitTungro">
+    tools:context=".PengendalianBlast">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,43 +16,30 @@
 
             <TextView
                 android:id="@+id/nama"
-                android:layout_width="214dp"
-                android:layout_height="54dp"
+                android:layout_width="264dp"
+                android:layout_height="53dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="56dp"
                 android:gravity="center_horizontal"
                 android:scrollbars="vertical"
-                android:text="TUNGRO"
+                android:text="CARA MENGATASI BLAST !!!"
                 android:textColor="#f000"
-                android:textSize="27sp" />
+                android:textSize="20sp" />
 
-            <ImageView
-                android:layout_width="343dp"
-                android:layout_height="233dp"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-                android:src="@drawable/tungro" />
 
-            <TextView
-                android:id="@+id/sebab"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scrollbars="vertical"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:text="Penyebab : \nWereng Hijau (Nephotettix impicticeps).\n"
-                android:textColor="#f000"
-                android:layout_marginTop="56dp"
-                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/ciri"
                 android:layout_width="match_parent"
-                android:layout_height="269dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:scrollbars="vertical"
-                android:text="Ciri-Ciri Tungro pada Padi\n\n1. Tanaman berubah menjadi kerdil\n2. Anakan padi berkurang\n3. Daun menguning dari pucuk sampai ke batang\n4. Malai kecil dan padi hampa"
+                android:text="Pengendalian Penyakit Blast\n\n1. Gunakan varietas tahan sesuai dengan sebaran ras yang ada di daerah setempat.
+                 \n2. Gunakan benih sehat.\n3. Hidarkan penggunaan pupuk nitrogen diatas dosis anjuran.
+                 \n4. Sanitasi lingkungan harus intensif karena inang alternatif patogen dapat berupa rerumputan.
+                 \n5. Hindari tanam padi terlambat dari tanaman petani di sekitarnya."
                 android:textColor="#f000"
                 android:textSize="18sp" />
         </LinearLayout>

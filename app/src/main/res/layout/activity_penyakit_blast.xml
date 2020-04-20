@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PenyakitBlast">
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/nama1"
@@ -37,19 +38,33 @@
                 android:id="@+id/sebab2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginRight="20dp"
                 android:scrollbars="vertical"
                 android:text="Penyebab : \nJamur Pyricularia oryzae.\n"
                 android:textColor="#f000"
-                android:layout_marginTop="56dp"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/ciri2"
                 android:layout_width="match_parent"
-                android:layout_height="421dp"
+                android:layout_height="228dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:scrollbars="vertical"
                 android:text="Ciri-Ciri Blast pada Padi\n\n1. Pada fase pertumbuhan\nTimbul bercak berbentuk belah ketupat pada daun padi\n2.Pada fase generatif\nPada fase ini menyerang bagian tangkai malai, hingga menimbulkan gelaja berwarna coklat pada malai padi."
                 android:textColor="#f000"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#66BD1A"
+                android:onClick="Kendali"
+                android:text="CARA PENGENDALIAN"
+                android:textColor="#EFE6E6"
                 android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
