@@ -10,19 +10,36 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sebuah sistem pintar bernama sistem pendeteksi perkembangan padi, dimana sistem ini diintegrasikan dengan database penyakit padi. "
+        android:text="About Us"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
         android:textColor="#f000"
         android:textSize="25dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kemudian dengan memanfaatkan kamera pada smart phone anda maka, secara otomatis sistem ini akan mendetekni mengenai perlakuan yang harus anda berikan terhadap perkembangan padi itu sendiri. "
+        android:text="Nama :\nSistem pendeteksi perkembangan padi, dimana sistem ini diintegrasikan dengan database penyakit padi. "
+        android:textColor="#f000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Cara Penggunaan :\nMemanfaatkan kamera pada smart phone untuk secara otomatis sistem ini akan mendetekni mengenai perlakuan yang harus anda berikan terhadap perkembangan padi itu sendiri. "
         android:textColor="#f000"
         android:textSize="25dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sistem pintar ini merupakan besutan dari : Ganang , Ulfah, Tiara , dan Ijad dari Universitas Muhammadiyah Malang"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Owner :\nGanang , Ulfah, Tiara , dan Ijad dari Universitas Muhammadiyah Malang"
         android:textColor="#f000"
         android:textSize="25dp" />
 
