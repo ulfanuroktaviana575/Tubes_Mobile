@@ -16,7 +16,7 @@
 
             <TextView
                 android:id="@+id/nama"
-                android:layout_width="214dp"
+                android:layout_width="wrap_content"
                 android:layout_height="54dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="56dp"
@@ -24,7 +24,7 @@
                 android:scrollbars="vertical"
                 android:text="BUSUK PELEPAH"
                 android:textColor="#f000"
-                android:textSize="27sp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="343dp"
@@ -48,13 +48,22 @@
             <TextView
                 android:id="@+id/ciri"
                 android:layout_width="match_parent"
-                android:layout_height="421dp"
-                android:scrollbars="vertical"
+                android:layout_height="203dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:scrollbars="vertical"
                 android:text="Ciri-Ciri Busuk Pelepah pada Padi\n\n1. Muncul noda bulat memanjang berwarna abu abu dibagian tengah\n2. Muncul noda coklat dibagian pinggir"
                 android:textColor="#f000"
                 android:textSize="18sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="CARA PENGENDALIAN"
+                android:background="#66BD1A"
+                android:textColor="#EFE6E6"
+                android:textSize="18sp"
+                android:onClick="Pindah"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

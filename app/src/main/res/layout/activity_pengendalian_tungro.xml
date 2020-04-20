@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PengendalianBlast">
+    tools:context=".PengendalianTungro">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,13 +16,13 @@
 
             <TextView
                 android:id="@+id/nama"
-                android:layout_width="280dp"
-                android:layout_height="85dp"
+                android:layout_width="269dp"
+                android:layout_height="77dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="56dp"
                 android:gravity="center_horizontal"
                 android:scrollbars="vertical"
-                android:text="CARA MENGATASI BLAST !!!"
+                android:text="CARA MENGATASI TUNGRO !!!"
                 android:textColor="#f000"
                 android:textSize="20sp" />
 
@@ -36,10 +36,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:scrollbars="vertical"
-                android:text="Pengendalian Penyakit Blast\n\n1. Gunakan varietas tahan sesuai dengan sebaran ras yang ada di daerah setempat.
-                 \n2. Gunakan benih sehat.\n3. Hidarkan penggunaan pupuk nitrogen diatas dosis anjuran.
-                 \n4. Sanitasi lingkungan harus intensif karena inang alternatif patogen dapat berupa rerumputan.
-                 \n5. Hindari tanam padi terlambat dari tanaman  petani di sekitarnya."
+                android:text="Pengendalian Penyakit Busuk Pelepah daun\n\n1. Tanam serempak.
+                \n2. Mengatur waktu tanam yang tepat \nPada saat populasi wereng hijau mencapai puncaknya, tanaman padiyang berumur kurang dari 45 hari setelah tanam sangat terancam oleh serangan tungro. Dengan demikian waktu tanam yang tepat adalah 30-45 hari sebelum puncak curah hujan."
                 android:textColor="#f000"
                 android:textSize="18sp" />
         </LinearLayout>

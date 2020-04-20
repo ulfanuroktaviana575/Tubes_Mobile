@@ -61,7 +61,7 @@ public class TentangPenyakit extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        tungro.setOnClickListener(new View.OnClickListener() {
+        pelepah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TentangPenyakit.this, BusukPelepah.class);
